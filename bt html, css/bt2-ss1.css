@@ -1,0 +1,11 @@
+h5{
+    color: rgb(80, 76, 76);
+}
+
+table, td, th, tr{
+    border: black solid;
+}
+
+th{
+    background-color: grey;
+}
