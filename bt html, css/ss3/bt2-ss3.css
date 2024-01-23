@@ -1,0 +1,24 @@
+header{
+    text-align: center;
+   
+}
+
+.to{
+    display: flex;
+    width:1000px;
+}
+
+.text{
+    width: 500px;
+    margin-right: 90px;
+}
+
+.hình {
+    width: 300px;
+    height: 100px;
+    margin-left: auto ;
+}
+
+img{
+    width: 100%;
+}
