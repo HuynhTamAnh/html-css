@@ -1,0 +1,50 @@
+.to {
+    display: flex;
+    height: 1000px;
+    justify-content: space-between;
+    /* align-items:baseline; */
+    align-items: flex-end;
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background: red;
+    /* margin-right: 3px; */
+    box-shadow: 10px 10px 6px #888;
+    border-radius: 5%;
+    opacity: 0.5;
+}
+
+.green{
+    width: 100px;
+    height: 100px;
+    background: green;
+    margin-right: 3px;
+    /* position: relative;
+    top: 20px;
+    left: 20px; */
+    box-shadow: 5px 5px 5px 5px grey;
+    
+}
+
+.blue{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    margin-right: 3px;
+}
+
+.yellow{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    margin-right: 3px;
+}
+
+.silver{
+    width: 100px;
+    height: 100px;
+    background: silver;
+    margin-right: 3px;
+}

@@ -1,0 +1,125 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h3 {
+    color: white;
+    /* padding: 5em 2em 0em; */
+    font-size: 27px;
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 2px;
+}
+
+p {
+    
+    font-size: 14px;
+    line-height: 29px;
+    color: rgb(193, 193, 193);
+    padding: 10px;
+    letter-spacing: 1px;
+    font-family: Montserrat, sans-serif;
+}
+
+.item1{
+   
+    grid-area: item1;
+    background-color: purple;
+    text-align: center;
+}
+
+.i1{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.item2{
+    grid-area: item2;
+}
+.item3{
+   
+    grid-area: item3;
+    background-color: pink;
+}
+
+.i3{
+    padding-bottom: 100px;
+
+}
+
+.item4{
+   
+    grid-area: item4;
+    background-color: pink
+   
+}
+
+.i4{
+   padding-bottom: 100px;
+}
+
+.item5{
+    grid-area: item5;
+    
+}
+
+.item6{
+    
+    grid-area: item6;
+    background-color: purple;
+}
+
+.i6{
+    padding-bottom: 100px;
+}
+
+.item7{
+    grid-area: item7;
+}
+.item8{
+    
+    grid-area: item8;
+    background-color:purple;
+}
+
+.i8{
+    padding-bottom: 130px;
+}
+
+.item9{
+    grid-area: item9;
+
+}
+
+.container{
+    display: grid;
+    grid-template-areas:
+    'item1 item2 item2 item3'
+    'item4 item4 item5 item6'
+    'item7 item8 item9 item9';
+}
+
+ @media screen and  (min-width: 820px) and (max-width:1200px){
+    .container{
+        grid-template-areas: 
+        'item1 item1 item1 item1'
+        'item2 item2 item2 item2'
+        'item3 item3 item3 item3'
+        'item4 item4 item4 item4'
+        'item5 item5 item5 item5'
+        'item6 item6 item6 item6'
+        'item7 item7 item7 item7'
+        'item8 item8 item8 item8'
+        'item9 item9 item9 item9'
+        ;
+    }
+} 

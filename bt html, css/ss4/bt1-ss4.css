@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slide {
+    flex: 0 0 100%;
+    display: none;
+}
+
+button {
+    margin: 10px;
+}
+
+#slide3 {
+    
+}

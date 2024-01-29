@@ -26,6 +26,7 @@ nav #menu li a{
 nav #menu li:hover a{
     background: #8e44ad;
     transition: all 0.3s;
+    color: rgb(255, 109, 133);
 }
 
 #menu{
@@ -54,6 +55,7 @@ h3 {
     font-weight: 500;
     font-family: Montserrat, sans-serif;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 p {
@@ -70,11 +72,26 @@ p {
     grid-area: item0;
     text-align: center;
     background-image:url(../img/b3.jpg);
-    /* height: fit-content; */
-}
+    padding: 180px;
+} 
 
 h2{
-    padding: 150px;
+    
+    color: #fff;
+    font-size: 50px;
+}
+
+button{
+    padding: 10px;
+    background-color: plum;
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+div .container button a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .item1{
@@ -166,5 +183,19 @@ h2{
     }
     h1{
         margin-left: 0px;
+    }
+    .container{
+        display: grid;
+        grid-template-areas:
+        'item0 item0 item0 item0'
+        'item1 item1 item1 item1'
+        'item2 item2 item2 item2'
+        'item3 item3 item3 item3'
+        'item4 item4 item4 item4'
+        'item5 item5 item5 item5'
+        'item6 item6 item6 item6'
+        'item7 item7 item7 item7'
+        'item8 item8 item8 item8'
+        'item9 item9 item9 item9';
     }
 }
