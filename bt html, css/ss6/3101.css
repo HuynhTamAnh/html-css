@@ -17,6 +17,7 @@
 
 .item2{
     margin-left: 600px;
+    white-space: nowrap;
 }
 
 
@@ -52,9 +53,9 @@
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 250px;
-    flex-direction: row;
+    /* flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 /* .bottom .item4 .anh2{
@@ -146,6 +147,3 @@
     padding: 15px;
 }
 
-.item2{
-    white-space: nowrap;
-}
