@@ -1,26 +1,44 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
 }
 
-h1{
-    margin-left: 65px;
-    margin-top: 15px;
-}
+
 
 ul{
     list-style-type: none;
+    margin: 0px;
+    padding: 10px 45px;
+    text-align: center;
+    font-size: 10px;
+
 }
 
-nav{
-    background-color: #9b59b6;
-}
-
-nav #menu li a{
+#bake{
+    text-align: center;
+    font-size: 55px;
+    padding: 8px 150px;
     color: #fff;
-    text-decoration: none;
-    display: block;
-    padding: 20px 85px;
+    
+}
+
+nav {
+    background-color: #9b59b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+nav #menu li a
+{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 20px 20px;
+  font-size: 15px;
 }
 
 nav #menu li:hover a{
@@ -32,6 +50,7 @@ nav #menu li:hover a{
 #menu{
     display: flex;
 }
+
 
 #bar{
     display: none;
@@ -53,19 +72,18 @@ h3 {
     color: white;
     font-size: 27px;
     font-weight: 500;
-    font-family: Montserrat, sans-serif;
     letter-spacing: 2px;
     text-align: center;
 }
 
-p {
-    
-    font-size: 14px;
-    line-height: 29px;
-    color: rgb(193, 193, 193);
-    padding: 10px;
-    letter-spacing: 1px;
-    font-family: Montserrat, sans-serif;
+p, h1, h2, h3, h4, h5, h6
+{
+  font-size: 14px;
+  line-height: 29px;
+  color: rgb(193, 193, 193);
+  padding: 10px 120px;
+  letter-spacing: 1px;
+  font-family: Montserrat, sans-serif;
 }
 
 .item0{
@@ -87,6 +105,11 @@ button{
     width: 200px;
     height: 80px;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #e84393;
 }
 
 div .container button a{
@@ -177,12 +200,26 @@ div .container button a{
     #menu{
         flex-direction: column;
         text-align: center;   
+        padding: 45px;
     }
+
+   
+
     #bar{
         display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 0px;
+        display: inline-block;
     }
     h1{
+        position: absolute;
+        top: 0;
+        left: 0;
         margin-left: 0px;
+        display: inline-block;
+        font-size: xx-large;
     }
     .container{
         display: grid;
