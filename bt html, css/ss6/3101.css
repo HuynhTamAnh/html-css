@@ -55,9 +55,8 @@
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 250px;
-    /* flex-direction: row;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
 }
 
 /* .bottom .item4 .anh2{
@@ -76,6 +75,8 @@
     overflow: hidden;
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -88,6 +89,8 @@
     overflow: hidden;
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
     
 }
 .item7 {
@@ -98,6 +101,8 @@
     overflow: hidden;
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
 }
 .item8 {
     grid-area: item8;
@@ -112,6 +117,8 @@
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-top: 15px;
+    align-items: center;
+    justify-content: center;
 }
 .item10 {
     grid-area: item10;
@@ -122,6 +129,8 @@
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-top: 15px;
+    align-items: center;
+    justify-content: center;
 }
 .item11 {
     grid-area: item11;
@@ -132,6 +141,8 @@
     width: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin-top: 15px;
+    align-items: center;
+    justify-content: center;
 }
 .item12 {
     grid-area: item12;
