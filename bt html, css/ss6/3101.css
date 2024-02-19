@@ -160,3 +160,247 @@
     padding: 15px;
 }
 
+.footer {
+    text-align: center;
+    padding: 50px;
+    margin-top: 80px;
+}
+
+.mid {
+    text-align: center;
+}
+
+.work {
+    background-color: rgb(210, 255, 210);
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+}
+
+.content h1 {
+    margin-top: 50px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.content p {
+    margin-top: 20px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+  
+  .navbar li {
+    float: left;
+  }
+  
+  .navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  
+.navbar li a:hover {
+    border-bottom: 2px solid #00FF00;
+}
+  
+.duoicung{
+    margin-top: 100px;
+    display: grid;
+    grid-template-areas: 
+    'item13 item14 item15'
+    'item16 item17 item18';
+    justify-content: space-evenly;
+}
+
+
+.item13
+{
+  grid-area: item13;
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+  width: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+
+.item13 .chu10 {
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+
+
+.a {
+    background-color: rgb(90, 255, 255);
+    color: rgb(0, 100, 255);
+    font-size: 13px;
+}
+
+.item13 .anh{
+    background-color: rgba(255, 0, 0, 0.315);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    display: block;
+    padding: 15px;
+}
+.item14 .anh{
+    background-color: rgba(119, 0, 255, 0.315);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    display: block;
+    padding: 15px;
+    size: 5px;
+}
+.item15 .anh{
+    background-color: rgba(60, 255, 0, 0.315);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    display: block;
+    padding: 15px;
+}
+.item16 .anh{
+    background-color: rgba(0, 255, 136, 0.315);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    display: block;
+    padding: 15px;
+}
+.item17 .anh{
+    background-color: rgba(0, 255, 251, 0.315);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    display: block;
+    padding: 15px;
+}
+
+
+
+.mota{
+    display: flex;
+}
+
+.des{
+    display: flex;
+}
+
+.des p{
+    text-align: left;
+    font-size: 12px;
+    color: grey;
+}
+
+.des .external-link{
+    color: rgb(135, 135, 255);
+}
+
+.chu10 h3{
+    text-align: left;
+}
+
+.item14{
+    grid-area: item14;
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+  width: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.item14 .chu10{
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.item15{
+    grid-area: item15;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    width: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+.item15 .chu10{
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.item16{
+    grid-area: item16;
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+  width: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.item16 .chu10{
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.item17{
+    grid-area: item17;
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid black;
+  overflow: hidden;
+  width: 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
+
+.item17 .chu10{
+    font-size: 13px;
+    white-space: nowrap;
+}
